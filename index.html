@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dna-animation">
+        <div class="dna-helix"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-dna"></i>
+                    <span>BioPortfolio</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="profile/1.svg" alt="User" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                </div>
+                <div class="hero-text">
+                    <h1>DANIEL DENG</h1>
+                    <h2>Software Engineer</h2>
+                    <p class="hero-bio">Daniel Deng is a highly skilled software engineer with a strong academic background in computer science from Yale University and Wuhan University. He has experience in developing AI-driven applications and scalable platforms, with expertise in programming languages such as Python, C/C++, and JavaScript. His work includes implementing advanced cryptographic techniques and optimizing data interactions for large-scale applications.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                        <a href="#research" class="btn secondary">View Research</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider">
+                    <i class="fas fa-dna"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm DANIEL DENG, a software engineer with experience in developing AI-driven applications and scalable platforms. My work includes implementing advanced cryptographic techniques and optimizing data interactions for large-scale applications.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>danielzdeng01@gmail.com</p>
+                            <p>(203) 887-6167</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Location</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="divider">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            <div class="timeline" id="education-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Master of Science in Computer Science</h3>
+                            <span class="timeline-date">May 2024</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Yale University</p>
+                            <p class="field">Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Engineering in Computer Science</h3>
+                            <span class="timeline-date">Jun. 2022</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Wuhan University</p>
+                            <p class="field">Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="divider">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+            </div>
+            <div class="experience-grid" id="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer (Part-time)</h3>
+                        <span class="experience-date">Aug. 2024 – Oct. 2024</span>
+                    </div>
+                    <p class="experience-place">Pleasure House, Inc.</p>
+                    <ul class="experience-details">
+                        <li>Developed an AI-driven character chat website using Next.js and TypeScript, enabling users to create and chat with customized virtual chatbots.</li>
+                        <li>Implemented tRPC routers and procedures to establish a type-safe communication layer between the frontend and backend, enabling seamless and responsive conversation with chatbots.</li>
+                        <li>Designed data schemas for users, chatbots, and messages in MongoDB to ensure efficient data organization and retrieval; Used Prisma to execute and manage type-safe database operations.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Next.js</span>
+                        <span class="technique-tag">TypeScript</span>
+                        <span class="technique-tag">tRPC</span>
+                        <span class="technique-tag">MongoDB</span>
+                        <span class="technique-tag">Prisma</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">Aug. 2021 – Dec. 2021</span>
+                    </div>
+                    <p class="experience-place">Microsoft</p>
+                    <ul class="experience-details">
+                        <li>Developed features for the meeting report module of Microsoft Teams with React and TypeScript, such as recording participants’ actions in meetings and generating downloadable attendance reports.</li>
+                        <li>Implemented efficient data interactions with the back-end server using GraphQL Queries and Mutations; used Subscriptions to track and record real-time participants’ actions in meetings.</li>
+                        <li>Used React Hooks like useContext and useCallback to optimize data flow and rendering process within the meeting analytics component.</li>
+                        <li>Implemented unit tests using ts-jest and React Testing Library to validate the functionality of front-end components.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">React</span>
+                        <span class="technique-tag">TypeScript</span>
+                        <span class="technique-tag">GraphQL</span>
+                        <span class="technique-tag">ts-jest</span>
+                        <span class="technique-tag">React Testing Library</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Research Assistant</h3>
+                        <span class="experience-date">Jan. 2022 – May. 2022</span>
+                    </div>
+                    <p class="experience-place">National Engineering Research Center for Multimedia Software</p>
+                    <ul class="experience-details">
+                        <li>Implemented a helmet wearing detection model based on the Yolov5 model with PyTorch and an HSI color space-based algorithm for color recognition, achieving a high accuracy rate of 95%.</li>
+                        <li>Integrated DIoU NMS into the detection pipeline, increasing the detection accuracy for overlapping objects by 2.3% and improving the model’s reliability.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Yolov5</span>
+                        <span class="technique-tag">PyTorch</span>
+                        <span class="technique-tag">HSI color space</span>
+                        <span class="technique-tag">DIoU NMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Projects</h2>
+                <div class="divider">
+                    <i class="fas fa-microscope"></i>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fair Poker Game</h3>
+                        <p class="project-duration">Jan. 2024 – Mar. 2024</p>
+                        <p class="project-description">Developed a secure and trustworthy online poker game using Python and React, integrating advanced cryptographic techniques to guarantee the authenticity and impartiality of all game-related transactions.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>React</span>
+                            <span>Threshold LWE</span>
+                            <span>Flask-SocketIO</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cells"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">High Concurrency Ticketing Website</h3>
+                        <p class="project-duration">Sep. 2023 – Dec. 2023</p>
+                        <p class="project-description">Developed a resilient ticket booking platform with Spring Boot, MySQL, and Vue.js, enabling users to efficiently browse and search for events, book tickets, provide ratings, and post reviews on events.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>Vue.js</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="divider">
+                    <i class="fas fa-tools"></i>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programming Languages & Tools</h3>
+                    <div class="skills-grid" id="technical-skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C/C++</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>TypeScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Swift</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C#</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML/CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 55%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Next.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Spring Boot</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 35%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Flask</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 30%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>.Net</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 25%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>GraphQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 20%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>tRPC</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 15%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Tailwind CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 10%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Prisma</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 5%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Data Analysis</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>PyTorch</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Keras</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Pandas</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>OpenCV</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="divider">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in new research collaborations, speaking opportunities, or discussions about my work. Feel free to reach out!</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:danielzdeng01@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>danielzdeng01@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+12038876167" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>(203) 887-6167</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/zhanqideng" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/zhanqideng</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dna"></i>
+                    <span>DANIEL DENG</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/zhanqideng" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 DANIEL DENG. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
